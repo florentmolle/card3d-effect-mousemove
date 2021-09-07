@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>card 3d effect</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- CARD 3D EFFECT ON MOUSE MOVE -->
+    <!-- can be reuse as much as you want, just use same class "card-container" and "card" -->
+
+    <div id="wrapper">
+        <div class="card-container"> <!-- this container will be hovered for the mouse move event -->
+            <div class="card"> <!-- this card will have the 3d effect -->
+
+                <!-- here is just the content inside the card for the demo -->
+                <p id="card-title">hover me</p>
+                <p id="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Nemo fuga corporis earum, eveniet quia, harum molestias 
+                    error aperiam enim sed atque neque modi. Ad nesciunt ea eveniet corrupti. 
+                    Veritatis, mollitia?
+                </p>
+                <div id="card-contentbox">
+                    <div class="card-content"><p>01</p></div>
+                    <div class="card-content"><p>02</p></div>
+                    <div class="card-content"><p>03</p></div>
+                    <div class="card-content"><p>04</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
